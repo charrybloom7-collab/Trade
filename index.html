@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade Gift Cards in Nigeria: A Complete Guide for Beginners</title>
+<meta name="description" content="A beginner's guide to trading gift cards in Nigeria — how rates work, choosing a platform, avoiding scams, and a practical first-transaction strategy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1220;
+    --surface:#161C2E;
+    --surface-2:#1D2438;
+    --line: rgba(232,236,250,0.10);
+    --text:#E9EDFA;
+    --text-muted:#8D93AD;
+    --orange:#E88A3C;
+    --orange-soft: rgba(232,138,60,0.14);
+    --indigo:#6E82E8;
+    --radius: 16px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text);
+    font-family:'Inter', system-ui, sans-serif;
+    font-size:16px;
+    line-height:1.74;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{display:block;max-width:100%;}
+  a{color:inherit;}
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--orange);
+  }
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    line-height:1.18;
+    margin:0 0 0.5em 0;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0 0 1.1em 0;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px;}
+
+  /* ===== Header — single line ===== */
+  header.site{
+    width:100%;
+    border-bottom:1px solid var(--line);
+    background:rgba(14,18,32,0.88);
+    backdrop-filter: blur(10px);
+    position:sticky;
+    top:0;
+    z-index:50;
+  }
+  .header-row{
+    max-width:1180px;
+    margin:0 auto;
+    padding:16px 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    white-space:nowrap;
+    overflow-x:auto;
+  }
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:18px;
+    letter-spacing:-0.01em;
+    flex-shrink:0;
+    text-decoration:none;
+    color:var(--text);
+  }
+  .logo .mark{
+    width:24px;height:24px;
+    border-radius:6px;
+    background:var(--orange-soft);
+    border:1.5px solid var(--orange);
+    position:relative;
+    flex-shrink:0;
+  }
+  .logo .mark::after{
+    content:"⇄";
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:13px;
+    color:var(--orange);
+    font-family:'JetBrains Mono', monospace;
+  }
+  nav.main{display:flex;gap:26px;align-items:center;font-size:14px;color:var(--text-muted);}
+  nav.main a{text-decoration:none;transition:color .15s ease;}
+  nav.main a:hover{color:var(--text);}
+  .nav-cta{
+    background:var(--orange);
+    color:#2A1607;
+    padding:9px 18px;
+    border-radius:100px;
+    font-weight:600;
+    font-size:13.5px;
+    text-decoration:none;
+    flex-shrink:0;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 20px -8px rgba(232,138,60,0.55);}
+
+  /* ===== Hero ===== */
+  .hero{
+    width:100%;
+    padding:84px 24px 64px;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, rgba(232,138,60,0.14), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 0%, rgba(110,130,232,0.12), transparent 60%);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-inner{max-width:860px;margin:0 auto;text-align:left;}
+  .hero h1{font-size:clamp(28px, 4.2vw, 46px);}
+  .hero .lede{font-size:18px;color:var(--text-muted);max-width:660px;}
+  .rate-strip{margin:32px 0 6px;display:flex;flex-wrap:wrap;gap:10px;}
+  .rate-chip{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    padding:8px 14px;
+    border-radius:8px;
+    background:var(--surface);
+    border:1px solid var(--line);
+    color:var(--text-muted);
+  }
+
+  /* ===== Sections ===== */
+  section{padding:54px 0;}
+  section.tight{padding:34px 0;}
+  hr.divider{border:none;border-top:1px solid var(--line);margin:0;}
+  .lead-link{
+    color:var(--orange);
+    text-decoration:underline;
+    text-decoration-color: rgba(232,138,60,0.4);
+    text-underline-offset:3px;
+    font-weight:600;
+  }
+  .lead-link:hover{text-decoration-color:var(--orange);}
+  .inline-link{
+    color:var(--indigo);
+    text-decoration:underline;
+    text-decoration-color: rgba(110,130,232,0.4);
+    text-underline-offset:3px;
+    font-weight:600;
+  }
+  .inline-link:hover{text-decoration-color:var(--indigo);}
+
+  .pull{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-left:3px solid var(--orange);
+    border-radius:0 var(--radius) var(--radius) 0;
+    padding:20px 24px;
+    margin:26px 0;
+    font-family:'Fraunces', serif;
+    font-size:19px;
+    line-height:1.5;
+    color:var(--text);
+  }
+
+  .grid-cards{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:16px;
+    margin:24px 0 8px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 20px;
+  }
+  .card .eyebrow{display:block;margin-bottom:8px;}
+  .card h3{font-size:16.5px;margin-bottom:6px;}
+  .card p{font-size:14.5px;color:var(--text-muted);margin:0;}
+
+  table.quality{
+    width:100%;
+    border-collapse:collapse;
+    margin:24px 0;
+    font-size:14px;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  table.quality th, table.quality td{
+    padding:13px 16px;
+    text-align:left;
+    border-bottom:1px solid var(--line);
+  }
+  table.quality th{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.07em;
+    text-transform:uppercase;
+    color:var(--orange);
+    background:var(--surface-2);
+  }
+  table.quality tr:last-child td{border-bottom:none;}
+
+  .warning-box{
+    background:linear-gradient(180deg, rgba(232,138,60,0.10), transparent);
+    border:1px solid rgba(232,138,60,0.32);
+    border-radius:var(--radius);
+    padding:20px 22px;
+    margin:24px 0;
+  }
+  .warning-box .eyebrow{margin-bottom:6px;}
+  .warning-box p{margin:0;color:var(--text);}
+
+  .checklist{list-style:none;padding:0;margin:20px 0;display:grid;gap:10px;}
+  .checklist li{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    font-size:15px;
+    color:var(--text-muted);
+  }
+  .checklist li::before{
+    content:"";
+    flex-shrink:0;
+    width:8px;height:8px;
+    border-radius:2px;
+    background:var(--indigo);
+    margin-top:7px;
+  }
+
+  .steps{list-style:none;padding:0;margin:24px 0;counter-reset:step;}
+  .steps li{
+    counter-increment:step;
+    display:flex;
+    gap:16px;
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+    font-size:14.5px;
+    color:var(--text-muted);
+  }
+  .steps li:last-child{border-bottom:none;}
+  .steps li::before{
+    content:counter(step);
+    flex-shrink:0;
+    width:28px;height:28px;
+    border-radius:50%;
+    background:var(--orange-soft);
+    border:1px solid var(--orange);
+    color:var(--orange);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    font-weight:600;
+  }
+
+  /* ===== FAQ ===== */
+  .faq-item{border-bottom:1px solid var(--line);padding:18px 0;}
+  .faq-item summary{
+    cursor:pointer;
+    font-family:'Fraunces', serif;
+    font-size:17px;
+    font-weight:600;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{
+    content:"+";
+    font-family:'Inter',sans-serif;
+    font-size:22px;
+    color:var(--orange);
+    flex-shrink:0;
+    transition:transform .2s ease;
+  }
+  .faq-item[open] summary::after{transform:rotate(45deg);}
+  .faq-item p{color:var(--text-muted);margin:12px 0 0 0;font-size:15px;}
+
+  /* ===== CTA band ===== */
+  .cta-band{
+    width:100%;
+    background:var(--surface);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:56px 24px;
+    text-align:center;
+  }
+  .cta-band h2{font-size:clamp(24px,3.4vw,32px);}
+  .cta-band p{color:var(--text-muted);max-width:520px;margin:0 auto 24px;}
+  .btn-primary{
+    display:inline-block;
+    background:var(--orange);
+    color:#2A1607;
+    padding:14px 30px;
+    border-radius:100px;
+    font-weight:700;
+    text-decoration:none;
+    font-size:15px;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px -10px rgba(232,138,60,0.6);}
+
+  /* ===== Footer ===== */
+  footer.site{
+    width:100%;
+    background:#0A0D18;
+    padding:52px 24px 28px;
+    border-top:1px solid var(--line);
+  }
+  .footer-inner{
+    max-width:1180px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:36px;
+  }
+  .footer-brand{max-width:340px;}
+  .footer-brand .logo{margin-bottom:12px;}
+  .footer-brand p{color:var(--text-muted);font-size:14px;margin:0;}
+  .footer-cols{display:flex;gap:56px;flex-wrap:wrap;}
+  .footer-col h4{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--orange);
+    margin:0 0 14px 0;
+  }
+  .footer-col ul{list-style:none;padding:0;margin:0;display:grid;gap:9px;}
+  .footer-col a{color:var(--text-muted);text-decoration:none;font-size:14px;transition:color .15s ease;}
+  .footer-col a:hover{color:var(--text);}
+  .social-row{display:flex;gap:12px;margin-top:16px;}
+  .social-row a{
+    width:36px;height:36px;
+    border-radius:50%;
+    background:var(--surface-2);
+    border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;
+    transition:background .15s ease, transform .15s ease;
+  }
+  .social-row a:hover{background:var(--orange);transform:translateY(-2px);}
+  .social-row a:hover svg path{fill:#2A1607;}
+  .social-row svg{width:16px;height:16px;}
+  .social-row svg path{fill:var(--text-muted);transition:fill .15s ease;}
+  .footer-bottom{
+    max-width:1180px;
+    margin:40px auto 0;
+    padding-top:22px;
+    border-top:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:13px;
+    color:var(--text-muted);
+  }
+
+  @media (max-width:820px){
+    .grid-cards{grid-template-columns:1fr;}
+    nav.main{display:none;}
+    .footer-inner{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="header-row">
+    <a href="#top" class="logo">
+      <span class="mark"></span>
+      Trade&nbsp;Card&nbsp;Guide
+    </a>
+    <nav class="main">
+      <a href="#guide">How it works</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#safety">Safety</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="https://cardgoal.com/gift-cards" class="nav-cta">Check rates</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Nigeria · Beginner's Guide</span>
+      <h1>Trade Gift Cards in Nigeria: A Complete Guide for Beginners</h1>
+      <p class="lede">Rates change daily, platforms vary, and scammers target exactly this market. Here's the practical, beginner-friendly version of how gift-card trading actually works in Nigeria.</p>
+      <div class="rate-strip" aria-hidden="true">
+        <span class="rate-chip">Apple → ₦</span>
+        <span class="rate-chip">Steam → ₦</span>
+        <span class="rate-chip">Amazon → ₦</span>
+        <span class="rate-chip">Google Play → ₦</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+
+    <section id="guide" class="tight">
+      <p>Gift cards have become a convenient way to send digital value across countries, but they're not always useful to the person who receives them. Someone in Nigeria may receive an Apple, Amazon, Steam, Google Play, or another international gift card without a practical way to spend it — this is where <a href="https://cardgoal.com/gift-cards" class="lead-link">trade gift cards in Nigeria</a> becomes useful.</p>
+      <p>Trading a gift card generally means exchanging its value through a supported trading platform in return for Nigerian naira. The amount received depends on the card, currency, denomination, region, market demand, and rate available at the time of the transaction.</p>
+      <p>The Nigerian gift-card market includes a variety of apps and online services. Recent comparisons show that traders commonly evaluate platforms based on rates, payout speed, supported cards, security, and customer support rather than choosing an app based on one feature alone.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">The basics</span>
+      <h2>What is gift card trading in Nigeria?</h2>
+      <p>Gift card trading is the process of converting a supported gift card into monetary value. Imagine someone sends you a $100 gift card from another country — if you can't conveniently redeem it yourself, you submit it to a gift-card trading platform, which checks the card and calculates a naira value according to its current rate. If the trade is approved, you receive the agreed amount through the platform's available payout method.</p>
+      <div class="pull">This is different from simply using a gift card to purchase products. Instead of spending the balance at the original retailer, you exchange the card through a third-party trading service.</div>
+
+      <h2>Why has it become popular?</h2>
+      <p>International gift cards are frequently used for gifts, online subscriptions, gaming, shopping, and digital services — the problem occurs when the recipient lives in a country where the card has limited usability. Nigeria has developed a significant market for converting unwanted international gift cards into local currency, with recent industry coverage listing brands such as Apple, Amazon, Steam, Google Play, Razer Gold, Sephora, and Visa among the types commonly traded.</p>
+      <p>The important point: gift-card trading should be viewed as an exchange service, not a guaranteed way to make money.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">The process</span>
+      <h2>How gift card trading works</h2>
+      <p>The process is usually straightforward, though individual platforms differ:</p>
+      <ol class="steps">
+        <li>Create an account and identify the card you want to trade</li>
+        <li>The platform provides a current rate or estimated value</li>
+        <li>Submit the required card information</li>
+        <li>The platform reviews the transaction</li>
+        <li>If approved, the naira value is paid according to the platform's payout process</li>
+      </ol>
+      <p>Some services use automated systems, while others manually review certain transactions — processing times can differ depending on the card and the platform.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">Understanding value</span>
+      <h2>What affects the value of a gift card?</h2>
+      <p>A gift card's original face value is only one part of its trading value. Two cards worth $100 may produce different payouts because they belong to different brands or have different market demand. Currency and region also influence the exchange rate — some cards are more desirable to traders than others, while certain types face stricter regional restrictions.</p>
+      <p>The rate can change over time too. Current Nigerian market comparisons specifically advise traders to check the live rate for their exact card before completing a transaction, since rates can move from day to day.</p>
+
+      <h2>Important rate factors</h2>
+      <ul class="checklist">
+        <li>Card brand</li>
+        <li>Card currency</li>
+        <li>Face value</li>
+        <li>Country or region</li>
+        <li>Physical or digital format</li>
+        <li>Market demand</li>
+        <li>Current exchange rate</li>
+        <li>Card validity</li>
+        <li>Platform pricing</li>
+        <li>Transaction requirements</li>
+      </ul>
+      <p>Because of these differences, there's no universal "best gift card rate" that stays the same all the time.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">What's tradable</span>
+      <h2>Popular gift cards for trading</h2>
+      <p>The Nigerian market supports many gift-card categories, but availability varies by platform. Apple and iTunes cards are popular because they're widely recognized internationally, and Amazon cards can be traded when the relevant region is supported.</p>
+
+      <div class="grid-cards">
+        <div class="card">
+          <span class="eyebrow">Gaming</span>
+          <h3>Steam &amp; Razer Gold</h3>
+          <p>An important category for Nigerian traders looking to convert unused gaming credit.</p>
+        </div>
+        <div class="card">
+          <span class="eyebrow">Tech</span>
+          <h3>Google Play</h3>
+          <p>Commonly encountered by Nigerian traders, alongside retail, fashion, and entertainment cards.</p>
+        </div>
+      </div>
+      <p>Before purchasing or accepting a gift card with the intention of trading it, check whether the platform you plan to use actually supports that card and region.</p>
+
+      <h2>Physical cards vs. e-codes</h2>
+      <p>A physical card is usually plastic or paper containing a redemption code. An e-code is delivered digitally, often through email or an online account. Trading platforms may price or process these formats differently — some cards have stronger demand in physical form, while other platforms prefer digital submissions.</p>
+      <p>Never assume that a physical and digital version of the same brand will receive exactly the same rate. Always check the platform's current rate and submission requirements before starting a trade.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="platforms">
+      <span class="eyebrow">Choosing a platform</span>
+      <h2>Choosing a gift card trading platform</h2>
+      <p>There are many gift-card trading services available to Nigerian users, and new platforms appear over time. Rather than selecting a service simply because someone recommends it online, compare several practical factors through something like a <a href="https://cardgoal.com/gift-cards" class="inline-link">gift card rate comparison tool</a>.</p>
+      <p>A good platform should clearly explain which cards it accepts, how rates are calculated, how the payout works, and how customers can contact support. Security matters too — a platform handling valuable gift-card information should have appropriate account protections and a clear transaction process.</p>
+
+      <table class="quality">
+        <thead>
+          <tr><th>Factor</th><th>What to check</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Card support</td><td>Whether your exact brand and region are accepted</td></tr>
+          <tr><td>Current rate</td><td>The actual amount offered for your card</td></tr>
+          <tr><td>Payout</td><td>How and where you receive your money</td></tr>
+          <tr><td>Processing time</td><td>How long approved trades normally take</td></tr>
+          <tr><td>Security</td><td>Account protection and transaction controls</td></tr>
+          <tr><td>Verification</td><td>Whether identity information may be requested</td></tr>
+          <tr><td>Support</td><td>Availability of a legitimate support channel</td></tr>
+          <tr><td>Reputation</td><td>Independent reviews and customer experiences</td></tr>
+          <tr><td>Terms</td><td>Rules covering rejected or disputed trades</td></tr>
+        </tbody>
+      </table>
+      <p>A platform that offers a slightly lower rate may still be preferable if it provides a clearer, more dependable process.</p>
+
+      <h2>Comparing rates before you trade</h2>
+      <p>One of the biggest mistakes beginners make is choosing the first platform they find. Gift-card rates can change, so comparing current quotes can make a meaningful difference — Platform A may offer one amount for a $100 card while Platform B offers another, and the difference grows more significant with larger denominations.</p>
+      <p>Rate comparison shouldn't be the only consideration, though. An extremely high advertised rate may not be worthwhile if the platform has unclear fees, poor support, or questionable practices. Compare the final amount you'll actually receive, along with the platform's reliability and security.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">A word of caution</span>
+      <h2>Should you buy gift cards specifically to trade them?</h2>
+      <p>This requires caution. If you already own a legitimate gift card you don't need, trading it makes practical sense. Buying cards specifically for resale is different, since your potential return depends on the gap between the purchase price and the eventual trading value — and there's also a risk that a card may be unsupported, restricted, invalid, or obtained through a fraudulent source.</p>
+      <p>For beginners, trading unwanted legitimate cards is generally easier to understand than treating gift-card trading as a speculative investment.</p>
+
+      <h2>Trading is not the same as investing</h2>
+      <p>Gift cards shouldn't be treated like stocks, cryptocurrency, or other investments. Their value ties directly to their redemption purpose and the exchange rate a trading platform offers — there's no guarantee that holding a gift card longer will make it more valuable. In fact, waiting can create problems if the card expires, becomes restricted, or its trading rate falls.</p>
+      <p>If you already have an unwanted card, checking its current value is more sensible than holding it indefinitely.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="safety">
+      <span class="eyebrow">Staying safe</span>
+      <h2>Security risks in gift card trading</h2>
+      <p>Gift cards attract scammers because the redemption number and PIN can provide access to the card's value. The Federal Trade Commission warns that scammers commonly pressure people into purchasing gift cards and then request the card numbers or PINs — legitimate businesses and government agencies do not demand gift cards as payment.</p>
+      <p>This matters especially when trading through social media, where a stranger may claim to be a buyer, offer a rate that looks much better than normal, ask you to send the code first, and promise to pay afterward — then disappear once they have it.</p>
+
+      <div class="warning-box">
+        <span class="eyebrow">Slow down</span>
+        <p>The safest strategy is slowing down when a transaction feels unusually urgent. Don't send gift-card numbers to random individuals simply because they promise immediate payment.</p>
+      </div>
+
+      <h2>Red flags to watch for</h2>
+      <ul class="checklist">
+        <li>An offer dramatically higher than normal rates</li>
+        <li>Pressure to trade immediately</li>
+        <li>Requests to send the code before payment</li>
+        <li>Fake bank-transfer screenshots</li>
+        <li>Unofficial customer-support accounts</li>
+        <li>Requests for passwords or OTPs</li>
+        <li>Requests for an unexpected upfront fee</li>
+        <li>Buyers who refuse a normal trading process</li>
+        <li>Instructions to buy another gift card before receiving payment</li>
+      </ul>
+      <p>If something feels wrong, stop the transaction instead of trying to complete it quickly. The FTC recommends keeping the gift card and purchase receipt, since these records help when reporting fraud or contacting the issuer.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">If something goes wrong</span>
+      <h2>What happens if a trade is rejected?</h2>
+      <p>A rejected trade doesn't automatically mean the platform is fraudulent. A card may be rejected because it's unsupported, incorrectly submitted, already redeemed, region-restricted, invalid, or subject to additional verification. Check the transaction status and contact the platform through its official support channel.</p>
+      <p>Do not send the same card code to multiple platforms at the same time — this creates confusion and may compromise the card. Keep screenshots, receipts, order numbers, and other transaction information until the issue is resolved.</p>
+
+      <h2>Can gift card trading be a side business?</h2>
+      <p>Some people consider gift-card trading a business opportunity, particularly with access to legitimate cards or a broader digital marketplace. It shouldn't be presented as guaranteed profit, though — the rate you receive can change, buying cards specifically for resale introduces added risk, and operational considerations like verification, fraud prevention, and legitimate sourcing all matter. For someone simply holding an unwanted gift card, the goal is usually different: convert it into useful local currency without unnecessary risk.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <span class="eyebrow">Market snapshot</span>
+      <h2>Gift card trading apps in Nigeria</h2>
+      <p>The Nigerian market contains multiple platforms, and their features aren't identical. A June 2026 comparison from Punch highlighted several services, including Koyn, Ridima, GiftCardsToNaira, Jophab, Cardtonic, and Tbay, while another 2026 comparison covered Jophab, Ridima, GiftCardsToNaira, and Apexpay. These are examples appearing in current market coverage, not a permanent ranking.</p>
+      <p>Because rates and platform policies change, avoid relying on an old "number one" list — check the current rate for the exact card you have and compare each platform's security, payout process, and customer support.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="tight">
+      <span class="eyebrow">Getting started</span>
+      <h2>A practical strategy for beginners</h2>
+      <p>If you're new to gift-card trading, there's no need to begin with a large transaction. Start by understanding the platform's rate system and submission requirements. Confirm the card type, currency, and region, and check the final expected payout before confirming anything.</p>
+      <p>For your first transaction, a smaller legitimate card can help you get familiar with the process. Once you understand how the platform handles submissions and payouts, you can make better decisions about future transactions.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="tight">
+      <span class="eyebrow">Wrapping up</span>
+      <h2>Conclusion</h2>
+      <p>Trading gift cards in Nigeria is a growing digital activity that provides a practical solution for people holding international gift cards they can't easily use. Instead of letting an unwanted Apple, Amazon, Steam, Google Play, or other supported card sit unused, a legitimate trading platform can exchange its value for Nigerian naira.</p>
+      <p>Successful gift-card trading depends on making informed decisions, though — the rate matters, but it should never be the only factor. A good trading decision considers the actual payout, supported card type, processing procedure, security features, customer support, verification requirements, and platform reputation. Rates also change, so current market comparisons emphasize checking the live rate for the exact card before completing a transaction.</p>
+      <p>Security deserves equal attention. Gift-card codes can be extremely sensitive, and scammers frequently try to obtain them through fake buyers, impersonation, urgent payment demands, and false support accounts. For beginners, the smartest approach is simple: trade only legitimate cards, compare current rates, use a trusted transaction process, protect your codes, keep your receipts, and never let pressure make the decision for you.</p>
+    </section>
+
+  </div>
+
+  <div class="cta-band">
+    <h2>Compare today's rates first</h2>
+    <p>Confirm your card is supported and check the actual payout before you commit to a platform.</p>
+    <a href="https://cardgoal.com/gift-cards" class="btn-primary">Compare gift card rates</a>
+  </div>
+
+  <div class="wrap">
+    <section id="faq">
+      <span class="eyebrow">FAQ</span>
+      <h2 style="margin-bottom:20px;">Frequently asked questions</h2>
+
+      <details class="faq-item" open>
+        <summary>What does it mean to trade gift cards in Nigeria?</summary>
+        <p>It means exchanging a supported gift card through a trading platform for Nigerian naira or another supported form of value.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Which gift cards can be traded in Nigeria?</summary>
+        <p>Commonly traded categories include Apple, Amazon, Steam, Google Play, Razer Gold, Sephora, Visa, and other supported cards. The exact list varies between platforms.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How is a gift card's trading value calculated?</summary>
+        <p>The value can depend on the card brand, currency, denomination, region, format, market demand, and the platform's current exchange rate.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do gift-card rates stay the same?</summary>
+        <p>No. Rates change according to market conditions and demand. Current Nigerian market comparisons recommend checking the live rate before completing a trade.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is gift card trading legal?</summary>
+        <p>Trading legitimate gift cards through a legitimate service is different from using stolen, fraudulent, or illegally obtained cards. Follow the platform's terms and applicable laws, and only trade cards you legitimately own.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I trade an Apple gift card in Nigeria?</summary>
+        <p>Apple gift cards are among the card types commonly supported by Nigerian gift-card trading services, but acceptance depends on the exact card and region.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I trade Steam gift cards?</summary>
+        <p>Steam cards are commonly included among Nigerian gift-card trading categories. Check the current platform rate and supported region before submitting one.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What's better: selling directly to someone or using an app?</summary>
+        <p>A structured trading platform can provide a clearer transaction process than dealing with an unknown individual. Direct social-media trades can expose sellers to fake payments and code theft.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How can I get the best rate?</summary>
+        <p>Compare current quotes for your exact card across reputable platforms. Look at the final payout rather than relying on a headline rate.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What should I do if someone asks for my gift-card PIN?</summary>
+        <p>Do not send it to an unknown person. The FTC warns that requests for gift-card numbers or PINs as payment are a common scam indicator.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can gift-card trading make me rich?</summary>
+        <p>There's no guaranteed profit. Gift-card trading is primarily an exchange service, and rates can change. Buying cards specifically to resell them also introduces financial and fraud risks.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What should I keep after completing a trade?</summary>
+        <p>Keep transaction records, receipts, screenshots, and confirmation details until you're certain the trade has been completed successfully.</p>
+      </details>
+    </section>
+  </div>
+
+</main>
+
+<footer class="site">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="mark"></span>
+        Trade&nbsp;Card&nbsp;Guide
+      </div>
+      <p>A beginner-friendly guide to trading gift cards for naira in Nigeria — rates, platforms, and scam prevention explained plainly.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7C16.4 3.66 15.4 3.57 14.24 3.57c-2.4 0-4.04 1.47-4.04 4.16V9.9H7.5V13h2.7v8h3.3z"/></svg></a>
+        <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24"><path d="M18.9 3H21l-6.6 7.5L22 21h-6.3l-4.9-6.4L5.2 21H3l7.1-8.1L2.5 3h6.4l4.4 5.8L18.9 3zm-1.1 16h1.7L7.3 4.9H5.5L17.8 19z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 3.3c2.4 0 2.7 0 3.6.05 2.2.1 3.15 1.06 3.25 3.25.05.9.06 1.17.06 3.4s0 2.5-.06 3.4c-.1 2.19-1.05 3.15-3.25 3.25-.9.05-1.16.05-3.6.05s-2.7 0-3.6-.05c-2.2-.1-3.15-1.06-3.25-3.25-.05-.9-.06-1.17-.06-3.4s0-2.5.06-3.4c.1-2.2 1.05-3.15 3.25-3.25.9-.05 1.16-.05 3.6-.05zM12 2c-2.45 0-2.76 0-3.72.06-2.9.13-4.1 1.34-4.23 4.23C4 7.24 4 7.55 4 10s0 2.76.06 3.72c.13 2.9 1.33 4.1 4.23 4.23.95.05 1.26.05 3.71.05s2.76 0 3.72-.05c2.9-.13 4.1-1.34 4.23-4.23.05-.96.05-1.27.05-3.72s0-2.76-.05-3.72c-.13-2.9-1.34-4.1-4.23-4.23C14.76 2 14.45 2 12 2zm0 4.85A5.15 5.15 0 1 0 12 17.15 5.15 5.15 0 0 0 12 6.85zm0 8.5a3.35 3.35 0 1 1 0-6.7 3.35 3.35 0 0 1 0 6.7zm5.34-8.7a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2s-.2-1.5-.85-2.15c-.8-.85-1.7-.85-2.1-.9C15.85 4 12 4 12 4h-.01s-3.84 0-6.64.15c-.4.05-1.3.05-2.1.9C2.6 5.7 2.4 7.2 2.4 7.2S2.2 9 2.2 10.7v1.6c0 1.7.2 3.5.2 3.5s.2 1.5.85 2.15c.8.85 1.86.82 2.32.92C6 19 12 19 12 19s3.85 0 6.65-.15c.4-.05 1.3-.05 2.1-.9.65-.65.85-2.15.85-2.15s.2-1.8.2-3.5v-1.6c0-1.7-.2-3.5-.2-3.5zM9.95 14.4V8.9l5.3 2.76-5.3 2.74z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Guide</h4>
+        <ul>
+          <li><a href="#guide">How trading works</a></li>
+          <li><a href="#platforms">Choosing a platform</a></li>
+          <li><a href="#safety">Scam prevention</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://cardgoal.com/gift-cards">Compare current rates</a></li>
+          <li><a href="#">FTC gift card scam guidance</a></li>
+          <li><a href="#">Supported card list</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Trade Card Guide. Educational resource for Nigerian gift-card traders.</span>
+    <span>Always verify a platform's terms before trading.</span>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
